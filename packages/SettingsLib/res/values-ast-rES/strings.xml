@@ -47,6 +47,7 @@
   <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
   <string name="wifi_security_eap">802.1x EAP</string>
   <!-- Do not translate.  Concise terminology for Passpoint network -->
+  <string name="wifi_security_passpoint">Passpoint</string>
   <!-- Summary for the remembered network. -->
   <!-- Status for networks disabled for unknown reason -->
   <!-- Status for networked disabled from a DNS or DHCP failure -->
@@ -310,6 +311,7 @@
   <!-- HDCP checking title, used for debug purposes only. [CHAR LIMIT=25] -->
   <!-- HDCP checking dialog title, used for debug purposes only. [CHAR LIMIT=25] -->
   <!-- Preference category for app debugging development settings. [CHAR LIMIT=50] -->
+  <string name="debug_debugging_category">Depuración</string>
   <!-- UI debug setting: select current app to debug [CHAR LIMIT=50] -->
   <!-- UI debug setting: no debug app has been set [CHAR LIMIT=50] -->
   <!-- UI debug setting: debug app has been set [CHAR LIMIT=50] -->
@@ -386,6 +388,7 @@
   <!-- Summary text of the "local backup password" setting when the user has already supplied a password -->
   <!-- Toast message shown when the user successfully sets a new local backup password [CHAR LIMIT=80] -->
   <!-- Toast message shown when setting a new local backup password fails due to the user not correctly typing the password again for confirmation [CHAR LIMIT=80] -->
+  <string name="local_backup_password_toast_confirmation_mismatch">La contraseña nueva y la de confirmación nun concasen</string>
   <!-- Toast message shown when setting a new local backup password fails due to the user not supplying the correct existing password. The phrasing here is deliberately quite general. [CHAR LIMIT=80] -->
   <!-- Name of each color mode for the display. [CHAR LIMIT=40] -->
   <string-array name="color_mode_names">
@@ -394,6 +397,11 @@
     <item>Estándar</item>
   </string-array>
   <!-- Description of each color mode for the display. [CHAR LIMIT=NONE] -->
+  <string-array name="color_mode_descriptions">
+    <item>Enhanced colors</item>
+    <item>Natural colors as seen by the eye</item>
+    <item>Colores optimizaes pal conteníu dixital</item>
+  </string-array>
   <!-- Settings item title for inactive apps [CHAR LIMIT=35] -->
   <string name="inactive_apps_title">Aplicaciones inactives</string>
   <!-- Settings item summary for inactive app [CHAR LIMIT=100] -->
@@ -404,7 +412,9 @@
   <!-- Developer settings: enable WebView multiprocess name [CHAR LIMIT=50] -->
   <!-- Developer settings: enable WebView multiprocess summary [CHAR LIMIT=60] -->
   <!-- Developer settings: select WebView provider title [CHAR LIMIT=30] -->
+  <string name="select_webview_provider_title">Implementación de WebView</string>
   <!-- Developer settings: select WebView provider dialog title [CHAR LIMIT=30] -->
+  <string name="select_webview_provider_dialog_title">Afitar la so implementación</string>
   <!-- Developer settings: text for the WebView provider selection toast shown if an invalid provider was chosen (i.e. the setting list was stale). [CHAR LIMIT=NONE] -->
   <!-- Developer settings screen, convert userdata to file encryption option name -->
   <!-- Developer settings screen, convert userdata to file encryption summary when option is available -->

@@ -105,7 +105,7 @@
 
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
     <string name="quick_settings_tiles_stock" translatable="false">
-        wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,inversion,saver,work,cast,night
+        wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,inversion,saver,work,cast,night,adb_network,ambient_display,caffeine,heads_up,sync,usb_tether,volume_panel
     </string>
 
     <!-- The tiles to display in QuickSettings -->
@@ -293,7 +293,4 @@
 
     <bool name="config_show4gForIWlan">false</bool>
     <bool name="config_showSignalForIWlan">false</bool>
-
-    <!-- When true,show the AutoBrightness checkbox -->
-    <bool name="config_show_auto_brightness">false</bool>
 </resources>
